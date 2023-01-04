@@ -1,0 +1,6 @@
+﻿  VectorSorting.cpp
+U:\Projects\CS-300\VectorSorting\VectorSorting\Bidding.hpp(87,27): warning C4018: '<': signed/unsigned mismatch
+U:\Projects\CS-300\VectorSorting\VectorSorting\VectorSorting.hpp(62,33): warning C4018: '<': signed/unsigned mismatch
+U:\Projects\CS-300\VectorSorting\VectorSorting\VectorSorting.hpp(66,36): warning C4018: '<': signed/unsigned mismatch
+U:\Projects\CS-300\VectorSorting\VectorSorting\VectorSorting.cpp(82,31): warning C4018: '<': signed/unsigned mismatch
+  VectorSorting.vcxproj -> U:\Projects\CS-300\VectorSorting\Debug\VectorSorting.exe
