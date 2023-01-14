@@ -1,4 +1,12 @@
 # CS-300: DSA: Analysis and Design
+
+Author: Joshua Wozny <br>
+Copyright 2023, portions Copyright 2017 Southern New Hampshire University, COCE<br>
+<br>
+This project contains subprojects for each assignment, milestone and project of the class.
+
+<hr>
+
 ## Assignment One: [VectorSorting](https://github.com/joshuawozny/CS-300/tree/main/VectorSorting)
 This assignment is designed to explore sorting algorithms by implementing both a selection sort and quicksort of a vector of bids loaded from a CSV file. Refelction and Pseudocode [here](https://github.com/joshuawozny/CS-300/tree/main/Documents). 
 
