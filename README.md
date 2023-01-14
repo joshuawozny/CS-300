@@ -1,5 +1,5 @@
 # CS-300: DSA: Analysis and Design
-## Assignment One: [VectorSorting](https://github.com/joshuawozny/CS-300/tree/dsaProject/DSAproject/DSAproject)
+## Assignment One: [VectorSorting](https://github.com/joshuawozny/CS-300/tree/main/VectorSorting)
 This assignment is designed to explore sorting algorithms by implementing both a selection sort and quicksort of a vector of bids loaded from a CSV file. 
 
 ## Assignment Two: [LinkedLists](https://github.com/joshuawozny/CS-300/tree/main/LinkedList/LinkedList)
