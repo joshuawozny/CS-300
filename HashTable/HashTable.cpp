@@ -76,6 +76,8 @@ private:
 
     unsigned int hash(int key);
 
+    InitializeNodes(unsigned int size);
+
 public:
     HashTable();
     HashTable(unsigned int size);
@@ -91,8 +93,7 @@ public:
  */
 HashTable::HashTable() {
     // FIXME (1): Initialize the structures used to hold bids
-    
-    // Initalize node structure by resizing tableSize
+    InitializeNodes(this.tableSize);
 }
 
 /**
@@ -103,6 +104,7 @@ HashTable::HashTable() {
 HashTable::HashTable(unsigned int size) {
     // invoke local tableSize to size with this->
     // resize nodes size
+    InitializeNodes(size);
 }
 
 
@@ -110,9 +112,9 @@ HashTable::HashTable(unsigned int size) {
  * Destructor
  */
 HashTable::~HashTable() {
-    // FIXME (2): Implement logic to free storage when class is destroyed
-    
+    // FIXME (2): Implement logic to free storage when class is destroyed    
     // erase nodes beginning
+    Vector<Node>().swap(nodes);
 }
 
 /**
@@ -127,6 +129,12 @@ HashTable::~HashTable() {
 unsigned int HashTable::hash(int key) {
     // FIXME (3): Implement logic to calculate a hash value
     // return key tableSize
+    return ket % tableSize;
+}
+
+HashTable::InitializeNodes(unsigned int size){
+    nodes = Vector<Node>(size,Node());
+    this.tableSize = size;
 }
 
 /**
@@ -137,13 +145,29 @@ unsigned int HashTable::hash(int key) {
 void HashTable::Insert(Bid bid) {
     // FIXME (5): Implement logic to insert a bid
     // create the key for the given bid
+    int key = hash(stoi(bid.BidId));
     // retrieve node using key
+    Node currentNode = nodes.at(key);
     // if no entry found for the key
+    if (currentNode.key == UINT_MAX){
         // assign this node to the key position
-    // else if node is not used
-         // assing old node key to UNIT_MAX, set to key, set old node to bid and old node next to null pointer
+        currentNode.bid = bid;
+        currentNode.key = key;
+        currentNode->next = new Node();
+    }
     // else find the next open node
-            // add new newNode to end
+    // add new newNode to end
+    else{
+        while(currentNode.next != nullptr){
+            if (currentNode.key == UINT_MAX){
+            // assign this node to the key position
+            currentNode.bid = bid;
+            currentNode.key = key;
+            currentNode->next = new Node();
+            }
+        }
+    }
+    
 }
 
 /**
@@ -158,6 +182,17 @@ void HashTable::PrintAll() {
             // while node not equal to nullptr
                // output key, bidID, title, amount and fund
                // node is equal to next node
+    for(int i=0;i<tableSize;i++){
+        if(bids.at(i).key == UINT_MAX){
+            continue;
+        }
+        cout << "{" << bids.at(i).key <<"} " << bids.at(i).bid.BidId << ": " << bids.at(i).bid.title << " | " << bids.at(i).bid.amount << " | " << bids.at(i).bid.fund <<endl;
+        while (bids.at(i)->next != nullptr){
+            if(bids.at(i).key != UINT_MAX){
+                cout << "{" << bids.at(i).key <<"} " << bids.at(i).bid.BidId << ": " << bids.at(i).bid.title << " | " << bids.at(i).bid.amount << " | " << bids.at(i).bid.fund <<endl;
+            }
+        }
+    }
 
 }
 
