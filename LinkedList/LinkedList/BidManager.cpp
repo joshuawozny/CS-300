@@ -49,7 +49,6 @@ Bid BidManager::getBid() {
 	bid.setFund(_fund);
 
 	cout << "Enter amount: ";
-	cin.ignore();
 	string strAmount;
 	getline(cin, strAmount);
 	bid.setAmount(strToDouble(strAmount, '$'));
@@ -97,3 +96,5 @@ const LinkedList& BidManager::getBids() const {
 void BidManager::setBids(const LinkedList& bids) {
 	this->bids = bids;
 }
+
+

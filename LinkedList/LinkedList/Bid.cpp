@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Bid.cpp
 // Author      : Joshua Wozny
-// Version     : 1.0
+// Version     : 1.1
 // Copyright   : Copyright © 2023,  portions Copyright © 2017 SNHU COCE
 // Description : Lab 3-3 Lists and Searching
 //============================================================================
@@ -11,7 +11,6 @@
 
 Bid::Bid() {
 	amount = 0.0;
-
 }
 
 Bid::~Bid() {

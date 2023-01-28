@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : LinkedList.cpp
 // Author      : Joshua Wozny
-// Version     : 1.0
+// Version     : 1.1
 // Copyright   : Copyright © 2023,  portions Copyright © 2017 SNHU COCE
 // Description : Lab 3-3 Lists and Searching
 //============================================================================
@@ -110,6 +110,7 @@ void LinkedList::Remove(std::string bidId) {
 		head = head->next;
 		//decrease size count
 		--size;
+		std::cout << bidId << "  removed." << std::endl;
 		//return
 		return;
 	}
@@ -119,6 +120,7 @@ void LinkedList::Remove(std::string bidId) {
 	// while loop over each node looking for a match
 	while (current != nullptr) {
 		if (current->next == nullptr) {
+			std::cout << bidId << "  not found." << std::endl;
 			return;
 		}
 		// if the next node bidID is equal to the current bidID
@@ -126,11 +128,12 @@ void LinkedList::Remove(std::string bidId) {
 			// hold onto the next node temporarily
 			Node* temp = current->next;
 			// make current node point beyond the next node
-			current = temp->next;
+			current = temp->next->next;
 			// now free up memory held by temp
 			temp = nullptr;
 			// decrease size count
 			--size;
+			std::cout << bidId << "  removed." << std::endl;
 			//return
 			return;
 		}
