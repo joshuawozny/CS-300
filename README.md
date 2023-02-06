@@ -16,7 +16,7 @@ This assignment is designed to explore linked lists, we will implement a singly 
 ## Assignment Three: [HashTables](https://github.com/joshuawozny/CS-300/tree/main/HashTable/HashTable)
 This assignment is designed to explore hash tables, we will implement a hash table using a vector of LinkedLists to hold a collection of bids loaded from a CSV file. Refelction and Pseudocode [here](https://github.com/joshuawozny/CS-300/tree/main/Documents). 
 
-## Assignment Four: [BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/BinarySearchTree/BinarySearchTree
+## Assignment Four: [BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/BinarySearchTree/BinarySearchTree)
 This assignment is designed to explore binary seacrh trees, we will implement a binary search tree using a node structure to hold bids loaded from a CSV file. Refelction and Pseudocode [here](https://github.com/joshuawozny/CS-300/tree/main/Documents). 
 <hr>
 
