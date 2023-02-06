@@ -32,6 +32,6 @@ This assignment explored how to open and parse a CSV file and creating course ob
 
 This assignment explored how to open and parse a CSV file and creating course objects, each described on a single line of the imported file by developing an appropriate set of pseudocode, storing in a Hash Table
 
-## Milestone Four: [Course Objects with Binary Search Trees](https://github.com/joshuawozny/CS-300/tree/main/Documents)
+## Milestone Four: [Course Objects with BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/Documents)
 
 This assignment explored how to open and parse a CSV file and creating course objects, each described on a single line of the imported file by developing an appropriate set of pseudocode, storing in a Binary Search Tree
