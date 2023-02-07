@@ -24,15 +24,11 @@ This assignment is designed to explore binary seacrh trees, we will implement a 
 
 This assignment explored how to open and parse a CSV file and creating objects to store each object that is described on each line of the imported file by developing an appropriate set of pseudocode, storing in a vector. 
 
-## Milestone Two: [Course Objects with LinkedLists](https://github.com/joshuawozny/CS-300/tree/main/Documents)
-
-This assignment explored how to open and parse a CSV file and creating course objects, each described on a single line of the imported file by developing an appropriate set of pseudocode, storing in a Linked List
-
-## Milestone Three: [Course Objects with HashTables](https://github.com/joshuawozny/CS-300/tree/main/Documents)
+## Milestone Two: [Course Objects with HashTables](https://github.com/joshuawozny/CS-300/tree/main/Documents)
 
 This assignment explored how to open and parse a CSV file and creating course objects, each described on a single line of the imported file by developing an appropriate set of pseudocode, storing in a Hash Table
 
-## Milestone Four: [Course Objects with BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/Documents)
+## Milestone Three: [Course Objects with BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/Documents)
 
 This assignment explored how to open and parse a CSV file and creating course objects, each described on a single line of the imported file by developing an appropriate set of pseudocode, storing in a Binary Search Tree
 <hr>
