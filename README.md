@@ -35,3 +35,8 @@ This assignment explored how to open and parse a CSV file and creating course ob
 ## Milestone Four: [Course Objects with BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/Documents)
 
 This assignment explored how to open and parse a CSV file and creating course objects, each described on a single line of the imported file by developing an appropriate set of pseudocode, storing in a Binary Search Tree
+<hr>
+
+## Project One: [Course Catolog Project Pseudocode comparing three Data Structures](https://github.com/joshuawozny/CS-300/tree/main/Documents)
+
+This project compared and contrasted each of the data structures we've explored in our Milestones. The project required us to provide an analysis using Big-O notation of the time and space complexity of each, and make a recomendation regarding which data structure should be used for the application and describe why.
