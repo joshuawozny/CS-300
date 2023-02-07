@@ -3,6 +3,14 @@
 * Assignment One Reflection & Pseudocode
 * Assignment Two Reflection & Pseudocode
 * Assignment Three Reflection & Pseudocode
+* Assignment Four Reflection & Pseudocode
+* Assignment Five Reflection & Pseudocode
+<hr>
+
 * Milestone One
 * Milestone Two
 * Milestone Three
+* Milestone Four
+<hr>
+
+* Project One
