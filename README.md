@@ -3,7 +3,11 @@
 Author: Joshua Wozny <br>
 Copyright 2023, portions Copyright 2017 Southern New Hampshire University, COCE<br>
 <br>
-This project contains subprojects for each assignment, milestone and project of the class.
+
+This project contains assignments, milestones and projects used to explore several data structures, including vectors, linked lists, hash tablees, and binary search trees. Through these projects we gained a better understanding of how they work, and when each should be used. With pseudocode, we explored time and space complexity
+and evaluated the overall performance of each data structure accordingly. Through the assignments and projects I was able to practice using DRY principals of Object Oriented Programming as well as the single responsibility principle.
+
+Practice with pseudocode and flowcharts has improved my ability to plan coding projects to reduce the amount of intial refactoring and reduce the number of logic errors. I've also learned to appreciate the debugging process. Even well planned and architected projects will produce errors that need to be debugged and represents a significant portion of time spent on any project. Learning the continuous development process of planning, coding, testing, debugging, and refactoring will allow me to better manage the software development process.
 
 <hr>
 
