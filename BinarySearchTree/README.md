@@ -1,6 +1,7 @@
 # CS-300: DSA: Analysis and Design
-## Assignment Four
-This assignment is designed to explore binary search trees, we will implement a binary search tree u nodes to hold a collection of bids loaded from a CSV file.
+## Assignment Four: 
+This assignment is designed to explore binary search trees; we will implement a binary search tree using a node structure to hold bids loaded from a CSV file. 
+
 
 In this version, the following menu is presented when the program is run:
 
