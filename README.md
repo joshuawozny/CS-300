@@ -21,7 +21,7 @@ This assignment is designed to explore linked lists, we will implement a singly 
 This assignment is designed to explore hash tables, we will implement a hash table using a vector of LinkedLists to hold a collection of bids loaded from a CSV file. Refelction and Pseudocode [here](https://github.com/joshuawozny/CS-300/tree/main/Documents). 
 
 ## Assignment Four: [BinarySearchTrees](https://github.com/joshuawozny/CS-300/tree/main/BinarySearchTree/BinarySearchTree)
-This assignment is designed to explore binary seacrh trees, we will implement a binary search tree using a node structure to hold bids loaded from a CSV file. Refelction and Pseudocode [here](https://github.com/joshuawozny/CS-300/tree/main/Documents). 
+This assignment is designed to explore binary search trees, we will implement a binary search tree using a node structure to hold bids loaded from a CSV file. Reflection and Pseudocode [here](https://github.com/joshuawozny/CS-300/tree/main/Documents). 
 <hr>
 
 ## Milestone One: [Course Objects with vectors](https://github.com/joshuawozny/CS-300/tree/main/Documents)
