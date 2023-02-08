@@ -40,3 +40,6 @@ This assignment explored how to open and parse a CSV file and creating course ob
 ## Project One: [Course Catolog: Data Structure Analysis](https://github.com/joshuawozny/CS-300/tree/main/Documents)
 
 This project compared and contrasted each of the data structures we've explored in our Milestones. The project required us to provide an analysis using Big-O notation of the time and space complexity of each, and make a recomendation regarding which data structure should be used for the application and describe why.
+
+## Project Two: [Course Catolog: Development](https://github.com/joshuawozny/CS-300/tree/main/Project/Project)
+This project requires that we use the skills, and knowledge acquired throught the course to develop code using algorithms and data structures to solve basic programming problems by using the recomended data structures andf algorithms discussed in Project One.
