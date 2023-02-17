@@ -3,22 +3,24 @@
 // Author      : Joshua Wozny
 // Version     : 1.0
 // Last Updated: January 30, 2023
-// Copyright   : Copyright © 2023,  portions Copyright © 2017 SNHU COCE
+// Copyright   : Copyright Â© 2023,  portions Copyright Â© 2017 SNHU COCE
 // Description : CS-300 Project Two, BinarySearchTree object
 //============================================================================
 
 #include "BinarySearchTree.h"
 
+//Default constructor
+// intializes root to nullptr
 BinarySearchTree::BinarySearchTree()
 {
 	this->root = nullptr;
 }
-
+//Constructor passing a node pointer to intialize root with
 BinarySearchTree::BinarySearchTree(Node* rootNode)
 {
 	this->root = rootNode;
 }
-
+//Destructor, delete the root pointer, which will also call the destructor for roots right and left pointers
 BinarySearchTree::~BinarySearchTree()
 {
 	delete root;
